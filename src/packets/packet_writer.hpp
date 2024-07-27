@@ -10,5 +10,6 @@ class PacketWriter {
         void writeShort(short data);
         void writeInt(int data);
         void writeLong(long data);
-        void writeString(char* string);
+        void writeString(const char* data);
+        void writeVarint(unsigned long data);
 };
